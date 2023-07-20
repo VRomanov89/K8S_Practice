@@ -1,3 +1,16 @@
 https://www.youtube.com/watch?v=d6WC5n9G_sM
 
 Single container inside of a pod is the most common use case.
+
+
+Master Node
+- API Server
+- Scheduler
+- Kube Controller Manager
+- Cloud Controller Manager
+- etcd
+- DNS
+
+kubectl
+- Command line tool
+- Connection to the master node over HTTPS.
